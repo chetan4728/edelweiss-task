@@ -1,0 +1,48 @@
+._container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #ddd;
+}
+._formbox
+{
+
+    width: 60%;
+    margin: 0px auto;
+}
+._anim
+{
+    background: url('/src/assets/images/user_details.gif');
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+
+}
+._lable
+{
+    font-weight: bolder;
+}
+._anim2
+{
+    background: url('/src/assets/images/app.gif');
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+.error
+{
+    color: red;
+}
+.details_container
+{
+    margin-top: 20px;
+    background: #ddd;
+    padding: 5px;
+}
