@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ac70b12.css",
-    "main.js": "/static/js/main.fa52a07b.js",
-    "static/media/app.gif": "/static/media/app.8a73beb4d5f00a89d64f.gif",
-    "static/media/user_details.gif": "/static/media/user_details.76899ce816af5c4e54ba.gif",
-    "index.html": "/index.html",
-    "main.4ac70b12.css.map": "/static/css/main.4ac70b12.css.map",
-    "main.fa52a07b.js.map": "/static/js/main.fa52a07b.js.map"
+    "main.css": "/edelweiss-task/static/css/main.9b410e1d.css",
+    "main.js": "/edelweiss-task/static/js/main.fa52a07b.js",
+    "static/media/app.gif": "/edelweiss-task/static/media/app.8a73beb4d5f00a89d64f.gif",
+    "static/media/user_details.gif": "/edelweiss-task/static/media/user_details.76899ce816af5c4e54ba.gif",
+    "index.html": "/edelweiss-task/index.html",
+    "main.9b410e1d.css.map": "/edelweiss-task/static/css/main.9b410e1d.css.map",
+    "main.fa52a07b.js.map": "/edelweiss-task/static/js/main.fa52a07b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac70b12.css",
+    "static/css/main.9b410e1d.css",
     "static/js/main.fa52a07b.js"
   ]
 }
