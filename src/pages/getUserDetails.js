@@ -68,10 +68,16 @@ const GetUserDetails = ({ dispatch }) => {
                     <Form.Group  className="mb-3">
                     <Form.Label className='_lable'>Mobile No</Form.Label>
                     <Form.Control
-                        
+                         type="number"
                         placeholder="Enter Mobile no"       
-                        type="text"
-                        {...register("mobile", { required: true, maxLength: 10 })}
+                        {...register("mobile", {
+                            
+                            required: true, 
+                            pattern: {
+                                value: /^[0-9]+$/,
+                                message: 'Please enter a number',
+                            },
+                        })}
                     
                     />
                 {errors.mobile && <p className="error">Please enter mobile</p>}
