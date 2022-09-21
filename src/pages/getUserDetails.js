@@ -84,7 +84,7 @@ const GetUserDetails = ({ dispatch }) => {
                     </Form.Group>
                     <Form.Group className="mb-3">
                     <Form.Label className='_lable' >Gender</Form.Label>
-                    <Form.Select defaultValue="Choose..." {...register("gender", { required: true })}>
+                    <Form.Select placeholder='choose' defaultValue="Choose..." {...register("gender", { required: true })}>
                         <option value="">Choose...</option>
                         <option value={'male'}>Male</option>
                         <option value={'female'}>Female</option>

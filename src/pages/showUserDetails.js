@@ -41,11 +41,11 @@ const ShowUserDetails = () => {
             <Col md={6}>
             <Form.Group  className="mb-3">
                     <Form.Label className='_lable'>Select Start Date</Form.Label>
-                    <DatePicker className="form-control" selected={startDate} onChange={(start) => setStartDate(start)} />
+                    <DatePicker className="form-control" placeholderText="Start Date" selected={startDate} onChange={(start) => setStartDate(start)} />
                     </Form.Group>
                     <Form.Group  className="mb-3">
                     <Form.Label className='_lable'>Select End Date</Form.Label>
-                    <DatePicker className="form-control" selected={endDate}  minDate={startDate} onChange={(end) => setEndDate(end)} />
+                    <DatePicker className="form-control" placeholderText="End Date" selected={endDate}  minDate={startDate} onChange={(end) => setEndDate(end)} />
                     </Form.Group>      
                     <Button onClick={submit}>Submit</Button>  
                     <Button variant="danger" className="m-2" onClick={back}>Back</Button> 
